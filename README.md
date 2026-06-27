@@ -2,6 +2,12 @@
 
 # Lab | Orchestrate, Then Defend
 
+## What is included
+
+- A small two-step pipeline that summarizes notes and turns the summary into a headline.
+- A prompt-injection guardrail that sanitizes note text before it reaches the model.
+- A reproducible test suite and a safety-first setup for API keys.
+
 ## Overview
 
 One agent is rarely the whole system. In this lab you orchestrate **two focused agents** into a small pipeline with ADK — and then you meet the dark side of giving agents access to outside data. One of the notes your pipeline reads contains a **prompt injection**: hidden instructions trying to hijack your agents. You'll watch the attack land, then add a **guardrail** that stops it.
